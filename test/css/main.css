@@ -1,0 +1,257 @@
+
+body{
+    max-width: 100%;
+    overflow-x:hidden; 
+}
+
+.header{
+    background-image: url("../img/header.jpg");
+    min-height: 900px;
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%; 
+}
+
+.container{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding: 10px;  
+}
+
+.hero{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    min-width: 1100px;
+    margin-top: 10px;
+}
+
+.info{
+    margin-left: -900px;
+    width: 460px;
+  
+}
+
+
+.image_1{
+    height: 634px;
+    margin-top: 40px;
+}
+
+.image_2{
+    height: 350px;
+    width: 710px;
+    margin-top: 550px;    
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
+
+.hero-descr{
+    margin-bottom: 40px;
+    margin-top: -20px;
+}
+
+.hero-subtitle{
+    font-size: 40px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.hero-link{
+    margin: 15px;
+}
+
+.tekst{
+    color: white;
+    text-align: right;
+    min-width: 460px;
+    max-width: 460px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.image_3{
+    width: 120vh;
+    height: 500px;
+    order: 1;
+    display: flex;
+    margin-left: 70px; 
+}
+
+.container1{
+    background-color: black;
+    height: 660px;
+    width: 100%;
+    display: inline-flex;
+	align-items: center;
+    justify-content: space-between;    
+}
+
+.tekst h2{
+    font-size: 40px;
+}
+
+.tekst h3{
+    font-size: 17px;
+    margin-bottom: -15px;
+}
+
+.info_girl{
+    margin-bottom: 90px;
+    margin-top: -10px;
+}
+
+.hero-link_2{
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+.info_2{
+    background-image: url("../img/image_4.jpg");
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+	
+	background-repeat: no-repeat; 
+}
+
+.tekst_2{  
+    color: white;
+    margin-top: 320px;
+    display: inline-block;
+    margin-left: 60px;
+}
+.hero-link_3{
+    margin-left: 15px;
+    font-size: 17px;
+}
+.tekst_2 h4{
+    font-size: 20px;
+    margin-bottom: -10px;
+    
+}
+
+.tekst_2 h2{
+    font-size: 40px;
+}
+
+.tekst_2 p{
+    width: 460px;
+    margin-bottom: 30px;
+    word-wrap: break-word;
+    font-size: 15px;
+}
+
+.footer{
+    background-color:#3e3530;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: 2px solid rgb(224, 202, 202);
+    color: white;
+   
+   
+}
+.nav{
+ display: flex;
+ justify-content: space-between;    
+padding:  20px 100px;
+font-size: 17px;
+    color: rgb(245, 231, 231);
+    min-width: 550px;
+    
+
+}
+.link{
+     color:  rgb(245, 231, 231);
+     
+}
+
+.link a{
+    color: white;
+    margin-left: 25px;
+    font-size: 15px;
+    text-decoration: underline;
+    
+
+}
+
+@media screen and (max-width:1024px){
+        .link a{
+            font-size: 12px;
+}
+
+        .nav{  
+            font-size: 15px;
+}
+
+        .image_1{
+            height: 450px;
+            margin-top: 20px;
+}
+
+        .image_2{
+            height: 300px;
+            width: 550px;
+            margin-left: -250px;
+           
+}
+
+        .hero-subtitle{
+            font-size: 35px;
+            width: 400px;
+}
+
+        .info{
+             width: 400px;
+}
+
+        .tekst{ 
+             min-width: 400px;
+             max-width: 400px;
+}
+
+        .image_3{
+            width: 550px;
+            height: 350px;
+            margin-left: 40px   ;
+}   
+
+        .tekst h2{
+            font-size: 35px;
+}           
+
+        .tekst h3{
+            font-size: 13px;
+}
+
+        .info_girl{
+            font-size: 13px;
+            width: 400px;
+}
+
+        .info_2{
+            height: 600px;
+}
+
+        .tekst_2{  
+             margin-top: 120px;
+}
+
+        .tekst_2 h4{
+            font-size: 13px;
+}
+
+        .tekst_2 h2{
+            font-size: 35px;
+}
+
+        .tekst_2 p{
+            width: 400px;
+            font-size: 12px;
+    
+}
+
+}
